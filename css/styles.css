@@ -1457,7 +1457,7 @@ border: solid 2px #FFE79B;
 }
 
 .counter .counter-container .counter-cell {
-  display: inline-block;
+  display: flex;
   width: 5rem;
   margin-right: 2.15rem;
   margin-bottom: 1rem;
@@ -1472,14 +1472,14 @@ border: solid 2px #FFE79B;
   margin-bottom: 0.125rem;
   color: #7604c2;
   font-weight: 700;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.25rem;
   font-family: "Poppins", sans-serif;
 }
 
 .counter .counter-container .counter-info {
   margin-left: 0.3rem;
-  font-size: 0.775rem;
+  font-size: 0.675rem;
   line-height: 1rem;
 }
 
@@ -1679,6 +1679,13 @@ border: solid 2px #FFE79B;
 /*************************/
 /*     Media Queries     */
 /*************************/
+/* Min-width 500px */
+@media (min-width: 500px) {
+  .counter-container .counter-cell {
+    flex-direction: row;
+  }
+}
+
 /* Min-width 768px */
 @media (min-width: 768px) {
   /* Header */
@@ -1693,6 +1700,14 @@ border: solid 2px #FFE79B;
     margin-left: auto;
   }
   /* end of header */
+
+  /* Intro*/
+  .counter .counter-container .purecounter {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.25rem;
+  }
+  /* End of Intro */
 
   /* Services */
   .cards-2 .card-body {
