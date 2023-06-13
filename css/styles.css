@@ -177,9 +177,9 @@ a:hover {
 
 .btn-solid-lg:hover {
   background-color: transparent;
-  color: #FFE79B; /* needs to stay here because of the color property of a tag */
+  color: #ffe79b; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
-  border-color: #FFE79B;
+  border-color: #ffe79b;
 }
 
 .form-floating label {
@@ -409,7 +409,7 @@ a:hover {
   height: 1px;
   margin: 0.5rem auto 0.5rem auto;
   border: none;
-  background-color: #DD58D6;
+  background-color: #dd58d6;
 }
 /* end of dropdown menu */
 
@@ -455,9 +455,9 @@ a:hover {
 } */
 
 .carousel {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
   position: relative;
-	text-align: center;
+  text-align: center;
   height: 80vh;
 }
 
@@ -488,11 +488,11 @@ a:hover {
 }
 
 .motto {
-  color: #FFE79B;
+  color: #ffe79b;
 }
 
 .service-name {
-  color: #FFE79B;
+  color: #ffe79b;
 }
 
 /*****************/
@@ -640,33 +640,31 @@ a:hover {
   width: 100%;
 }
 
-.service-btn{
-
-font-family: Roboto, sans-serif;
-font-weight: 800;
-font-size: 14px;
-color: #FFE79B;
-background-color: #453c67;
-padding: 10px 30px;
-border: solid #453c67 2px;
-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-border-radius: 1px;
-transition : 1000ms;
-transform: translateY(0);
-display: flex;
-flex-direction: row;
-align-items: center;
-cursor: pointer;
+.service-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #ffe79b;
+  background-color: #453c67;
+  padding: 10px 30px;
+  border: solid #453c67 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 1px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
 }
 
-.service-btn:hover{
-
-transition : .4s;
-padding: 10px 30px;
-transform : translateY(-0px);
-background-color: #FFE79B;
-color: #9336b4;
-border: solid 2px #FFE79B;
+.service-btn:hover {
+  transition: 0.4s;
+  padding: 10px 30px;
+  transform: translateY(-0px);
+  background-color: #ffe79b;
+  color: #9336b4;
+  border: solid 2px #ffe79b;
 }
 
 .card-title .service-btn:focus,
@@ -747,6 +745,7 @@ border: solid 2px #FFE79B;
 /*********************/
 .accordion-1 {
   background-color: #dbdfea;
+  overflow-x: hidden;
 }
 
 .accordion-1 .area-1 {
@@ -1092,7 +1091,7 @@ border: solid 2px #FFE79B;
 }
 
 #myBtn:hover {
-  background-color: #FFE79B;
+  background-color: #ffe79b;
 }
 
 #myBtn img {
